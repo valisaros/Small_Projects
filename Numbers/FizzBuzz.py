@@ -2,7 +2,7 @@
  and for the numbers for the multiples of five print "Buzz".
  For the numbers which are multiples of both print "FizzBuzz". '''
 
-for number in range(1,101):
+for number in range(1, 101):
 
     # Check if the number is multiple of 3 and 5
      if number % 3 and number % 5 == 0:
@@ -13,7 +13,7 @@ for number in range(1,101):
          print("Fizz")
 
      # Check if the number is multiple of 5
-     elif number % 5 ==0:
+     elif number % 5 == 0:
          print("Buzz")
 
      # Print the number
